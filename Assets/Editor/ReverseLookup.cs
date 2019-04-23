@@ -23,7 +23,7 @@ public class ReverseLookup : EditorWindow {
         {
             filter = string.Empty;
         }
-		GUILayout.Label(filter, GUILayout.Width(120));
+		GUILayout.Label("\n" + filter, GUILayout.Width(120));
         GUI.enabled = true;
         GUILayout.EndHorizontal();
 	}
